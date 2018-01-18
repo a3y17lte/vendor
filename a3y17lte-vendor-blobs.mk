@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a3y17lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/a3y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/a3y17lte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/a3y17lte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
