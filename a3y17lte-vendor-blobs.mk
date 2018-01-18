@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
     vendor/samsung/a3y17lte/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/samsung/a3y17lte/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
-    vendor/samsung/a3y17lte/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
+    vendor/samsung/a3y17lte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
     vendor/samsung/a3y17lte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/a3y17lte/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     vendor/samsung/a3y17lte/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
