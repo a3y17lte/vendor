@@ -1,2 +1,1 @@
-WIP 
-Vendor tree for a3 2017
+**Vendor for the galaxy a3 2017 build**
