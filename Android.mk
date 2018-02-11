@@ -19,32 +19,6 @@ ifeq ($($(TARGET_DEVICE)),a3y17lte)
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libGLES_mali
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/egl/libGLES_mali.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
-
-SYMLINKS := $(TARGET_OUT)/vendor
-$(SYMLINKS):
-	@echo "Symlink: vulkan.exynos5.so"
-	@mkdir -p $@/lib/hw
-	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.exynos5.so
-	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib64/hw/vulkan.exynos5.so
-	@echo "Symlink: libOpenCL.so.1.1"
-	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so.1.1
-	$(hide) ln -sf egl/libGLES_mali.so $@/lib64/libOpenCL.so.1.1
-
-ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
-	$(ALL_MODULES.$(LOCAL_MODULE).INSTALLED) $(SYMLINKS)
-
-include $(BUILD_PREBUILT)
-
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := qca_cld_wlan
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/lib/modules/qca_cld/qca_cld_wlan.ko
