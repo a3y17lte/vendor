@@ -76,10 +76,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/a3y17lte/proprietary/etc/nfc/sec_s3nrn80_rfreg.bin:system/etc/nfc/sec_s3nrn80_rfreg.bin \
     vendor/samsung/a3y17lte/proprietary/lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
+    vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
     vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/a3y17lte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/a3y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a3y17lte/proprietary/lib/libril.so:system/lib/libril.so \
@@ -90,7 +95,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/lib/hw/sensorhubs.universal7870.so:system/lib/hw/sensorhubs.universal7870.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-    vendor/samsung/a3y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
+    vendor/samsung/a3y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \  
+    vendor/samsung/a3y17lte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
+    vendor/samsung/a3y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/a3y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan30_OLD.bin:system/etc/firmware/bdwlan30_OLD.bin \
