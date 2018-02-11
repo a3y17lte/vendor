@@ -72,8 +72,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/a3y17lte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/a3y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    vendor/samsung/a3y17lte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
-    vendor/samsung/a3y17lte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    vendor/samsung/a3y17lte/proprietary/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
+    vendor/samsung/a3y17lte/proprietary/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/samsung/a3y17lte/proprietary/etc/nfc/sec_s3nrn80_rfreg.bin:system/etc/nfc/sec_s3nrn80_rfreg.bin \
     vendor/samsung/a3y17lte/proprietary/lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
     vendor/samsung/a3y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
