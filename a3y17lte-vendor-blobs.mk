@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/samsung/a3y17lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/a3y17lte/proprietary/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
-    vendor/samsung/a3y17lte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
+    vendor/samsung/a3y17lte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf
     vendor/samsung/a3y17lte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
@@ -90,11 +90,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/a3y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/a3y17lte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
-    vendor/samsung/a3y17lte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
-    vendor/samsung/a3y17lte/proprietary/lib/lib_SamsungRec_V05001.so:system/lib/lib_SamsungRec_V05001.so \
+    vendor/samsung/a3y17lte/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
+    vendor/samsung/a3y17lte/proprietary/lib/lib_SamsungRec_06002.so:system/lib/lib_SamsungRec_06002.so \
     vendor/samsung/a3y17lte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
     vendor/samsung/a3y17lte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
-    vendor/samsung/a3y17lte/proprietary/lib/lib_SoundBooster_ver700.so:system/lib/lib_SoundBooster_ver700.so \
+    vendor/samsung/a3y17lte/proprietary/lib/lib_SoundBooster_ver710.so:system/lib/lib_SoundBooster_ver710.so \
     vendor/samsung/a3y17lte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/a3y17lte/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/samsung/a3y17lte/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
@@ -110,9 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/a3y17lte/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
     vendor/samsung/a3y17lte/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
-    vendor/samsung/a3y17lte/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
-    vendor/samsung/a3y17lte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-    vendor/samsung/a3y17lte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/a3y17lte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
@@ -146,7 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/a3y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-	vendor/samsung/a3y17lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
+    vendor/samsung/a3y17lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin\
 	vendor/samsung/a3y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDcaemon \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
