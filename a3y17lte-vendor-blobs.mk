@@ -93,8 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/lib/hw/sensorhubs.universal7870.so:system/lib/hw/sensorhubs.universal7870.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/samsung/a3y17lte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-    vendor/samsung/a3y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \  
-    vendor/samsung/a3y17lte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
+    vendor/samsung/a3y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/a3y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/a3y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
