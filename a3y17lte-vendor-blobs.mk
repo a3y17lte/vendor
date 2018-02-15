@@ -161,14 +161,3 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/hw/sensorhubs.universal7870.so:system/lib/hw/sensorhubs.universal7870.so \
         $(LOCAL_PATH)/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
         $(LOCAL_PATH)/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-
-
-
-
-
-
-
-
-
-
-
