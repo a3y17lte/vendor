@@ -81,7 +81,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
         $(LOCAL_PATH)/proprietary/etc/firmware/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/WCNSS_cfg.dat \
         $(LOCAL_PATH)/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
-        $(LOCAL_PATH)/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
+        $(LOCAL_PATH)/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
         $(LOCAL_PATH)/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
         $(LOCAL_PATH)/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
         $(LOCAL_PATH)/proprietary/etc/srm.bin:system/etc/srm.bin \
@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
         $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
         $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
-        $(LOCAL_PATH)/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
         $(LOCAL_PATH)/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
         $(LOCAL_PATH)/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
         $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
@@ -145,7 +144,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
         $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
         $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-        $(LOCAL_PATH)/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
+        $(LOCAL_PATH)/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
         $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin\
         $(LOCAL_PATH)/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDcaemon \
         $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
