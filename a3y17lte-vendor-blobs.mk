@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/samsung/a3y17lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/a3y17lte/proprietary/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
-    vendor/samsung/a3y17lte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf
+    vendor/samsung/a3y17lte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \ 
     vendor/samsung/a3y17lte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
@@ -78,8 +78,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/wlan/grippower.info:system/etc/firmware/wlan/grippower.info \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
     vendor/samsung/a3y17lte/proprietary/etc/firmware/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/WCNSS_cfg.dat \
-	vendor/samsung/a3y17lte/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
-	vendor/samsung/a3y17lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
+    vendor/samsung/a3y17lte/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
+    vendor/samsung/a3y17lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
     vendor/samsung/a3y17lte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/a3y17lte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/a3y17lte/proprietary/etc/srm.bin:system/etc/srm.bin \
@@ -145,7 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/a3y17lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin\
-	vendor/samsung/a3y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDcaemon \
+    vendor/samsung/a3y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDcaemon \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
     vendor/samsung/a3y17lte/proprietary/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
