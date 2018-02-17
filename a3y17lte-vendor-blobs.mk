@@ -111,9 +111,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
         $(LOCAL_PATH)/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
         $(LOCAL_PATH)/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
-        $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
         $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
-        $(LOCAL_PATH)/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
         $(LOCAL_PATH)/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
         $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
         $(LOCAL_PATH)/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
@@ -141,6 +139,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+        $(LOCAL_PATH)/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
         $(LOCAL_PATH)/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
         $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
         $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
