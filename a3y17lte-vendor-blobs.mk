@@ -143,7 +143,6 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
         $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
         $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-        $(LOCAL_PATH)/proprietary/lib/libsecril.so:system/lib/libsecril.so \
         $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
         $(LOCAL_PATH)/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
         $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin\
