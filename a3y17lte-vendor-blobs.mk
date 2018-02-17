@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
         $(LOCAL_PATH)/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
         $(LOCAL_PATH)/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
+        $(LOCAL_PATH)/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
         $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
         $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
         $(LOCAL_PATH)/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
@@ -143,6 +144,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
         $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
         $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+        $(LOCAL_PATH)/proprietary/lib/libsecril.so:system/lib/libsecril.so \
         $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
         $(LOCAL_PATH)/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
         $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin\
