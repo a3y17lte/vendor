@@ -77,9 +77,6 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
         $(LOCAL_PATH)/proprietary/etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
         $(LOCAL_PATH)/proprietary/etc/firmware/utfbd32.bin:system/etc/firmware/utfbd32.bin \
-        $(LOCAL_PATH)/proprietary/etc/firmware/wlan/grippower.info:system/etc/firmware/wlan/grippower.info \
-        $(LOCAL_PATH)/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
-        $(LOCAL_PATH)/proprietary/etc/firmware/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/WCNSS_cfg.dat \
         $(LOCAL_PATH)/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
         $(LOCAL_PATH)/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
         $(LOCAL_PATH)/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
