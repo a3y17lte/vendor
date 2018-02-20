@@ -132,8 +132,8 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libMcClient.so:system/lib/libMcClient.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+        $(LOCAL_PATH)/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
+        $(LOCAL_PATH)/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
         $(LOCAL_PATH)/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
