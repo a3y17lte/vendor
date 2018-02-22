@@ -132,7 +132,6 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
@@ -143,7 +142,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
         $(LOCAL_PATH)/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
         $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin\
-        $(LOCAL_PATH)/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDcaemon \
+        $(LOCAL_PATH)/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
         $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
         $(LOCAL_PATH)/proprietary/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
         $(LOCAL_PATH)/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
