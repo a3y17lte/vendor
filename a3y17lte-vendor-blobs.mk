@@ -145,7 +145,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
         $(LOCAL_PATH)lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
         $(LOCAL_PATH)lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
-        $(LOCAL_PATH)etc/nfc/sec_s3nrn80_rfreg.bin:system/etc/nfc/sec_s3nrn80_rfreg.bin \
+        $(LOCAL_PATH)etc/sec_s3nrn80_rfreg.bin:system/etc/sec_s3nrn80_rfreg.bin \
         $(LOCAL_PATH)lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
         $(LOCAL_PATH)bin/sensorhubservice:system/bin/sensorhubservice \
         $(LOCAL_PATH)lib/hw/sensorhubs.universal7870.so:system/lib/hw/sensorhubs.universal7870.so \
