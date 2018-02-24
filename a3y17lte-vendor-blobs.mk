@@ -120,8 +120,8 @@ $(LOCAL_PATH)lib/libsavscmn.so:system/lib/libsavscmn.so \
 $(LOCAL_PATH)lib/libsavsff.so:system/lib/libsavsff.so \
 $(LOCAL_PATH)lib/libsavsmeta.so:system/lib/libsavsmeta.so \
 $(LOCAL_PATH)lib/libsavsvc.so:system/lib/libsavsvc.so \
-$(LOCAL_PATH)vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
-$(LOCAL_PATH)vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+$(LOCAL_PATH)lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
+$(LOCAL_PATH)/lib/libsec-ril.so:system/lib/libsec-ril.so \
 $(LOCAL_PATH)lib/libseccameracore.so:system/lib/libseccameracore.so \
 $(LOCAL_PATH)lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 $(LOCAL_PATH)lib/libsecril-client.so:system/lib/libsecril-client.so \
