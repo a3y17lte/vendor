@@ -159,7 +159,7 @@ $(LOCAL_PATH)lib/libsxqk.so:system/lib/libsxqk.so \
 $(LOCAL_PATH)lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
 $(LOCAL_PATH)lib/libuniplugin.so:system/lib/libuniplugin.so \
 $(LOCAL_PATH)lib/libwrappergps.so:system/lib/libwrappergps.so \
-$(LOCAL_PATH)lib/modules/qca_cld/qca_cld_wlan.ko:system/vendor/lib/modules/qca_cld/qca_cld_wlan.ko \
+$(LOCAL_PATH)lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
 $(LOCAL_PATH)lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
 $(LOCAL_PATH)lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
 $(LOCAL_PATH)lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
