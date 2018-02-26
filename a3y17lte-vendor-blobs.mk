@@ -83,6 +83,7 @@ $(LOCAL_PATH)etc/firmware/utfbd32.bin:system/etc/firmware/utfbd32.bin \
 $(LOCAL_PATH)etc/plmn_delta.bin:system/etc/plmn_delta.bin \
 $(LOCAL_PATH)etc/plmn_se13.bin:system/etc/plmn_se13.bin \
 $(LOCAL_PATH)etc/sec_s3nrn80_rfreg.bin:system/etc/sec_s3nrn80_rfreg.bin \
+$(LOCAL_PATH)vendor/firmware/nfc/sec_s3nrn80_firmware.bin:vendor/firmware/nfc/sec_s3nrn80_firmware.bin \
 $(LOCAL_PATH)etc/somxreg.conf:system/etc/somxreg.conf \
 $(LOCAL_PATH)etc/srm.bin:system/etc/srm.bin \
 $(LOCAL_PATH)lib/egl/egl.cfg:system/lib/egl/egl.cfg \
@@ -186,5 +187,3 @@ $(LOCAL_PATH)vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
 $(LOCAL_PATH)vendor/lib/libflp.so:system/vendor/lib/libflp.so \
 $(LOCAL_PATH)lib/libsomp.so:system/lib/libsomp.so \
 $(LOCAL_PATH)vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so
-$(LOCAL_PATH)lib/libtfa98xx.so:system/lib/libtfa98xx.so \
-$(LOCAL_PATH)/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt
