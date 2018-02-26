@@ -186,3 +186,5 @@ $(LOCAL_PATH)vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
 $(LOCAL_PATH)vendor/lib/libflp.so:system/vendor/lib/libflp.so \
 $(LOCAL_PATH)lib/libsomp.so:system/lib/libsomp.so \
 $(LOCAL_PATH)vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so
+$(LOCAL_PATH)lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+$(LOCAL_PATH)/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt
