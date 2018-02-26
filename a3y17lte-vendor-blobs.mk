@@ -52,7 +52,6 @@ $(LOCAL_PATH)bin/mcDriverDaemon:system/bin/mcDriverDaemon \
 $(LOCAL_PATH)bin/prepare_param.sh:system/bin/prepare_param.sh \
 $(LOCAL_PATH)bin/sensorhubservice:system/bin/sensorhubservice \
 $(LOCAL_PATH)bin/wcnss_filter:system/bin/wcnss_filter \
-$(LOCAL_PATH)etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
 $(LOCAL_PATH)etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
 $(LOCAL_PATH)etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
 $(LOCAL_PATH)etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -178,8 +177,6 @@ $(LOCAL_PATH)vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.s
 $(LOCAL_PATH)vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 $(LOCAL_PATH)vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
 $(LOCAL_PATH)vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-$(LOCAL_PATH)vendor/lib/soundfx/libLifevibes_lvverx.so:system/vendor/lib/soundfx/libLifevibes_lvverx.so \
-$(LOCAL_PATH)vendor/lib/soundfx/libLifevibes_lvvetx.so:system/vendor/lib/soundfx/libLifevibes_lvvetx.so \
 $(LOCAL_PATH)lib/libMcClient.so:system/lib/libMcClient.so \
 $(LOCAL_PATH)lib/libMcRegistry.so:system/lib/libMcRegistry.so \
 $(LOCAL_PATH)lib/libOpenCv.so:system/lib/libOpenCv.so \
