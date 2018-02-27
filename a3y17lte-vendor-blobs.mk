@@ -199,7 +199,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libOpenCv.so:system/lib/libOpenCv.so \
 	$(LOCAL_PATH)/vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so \
 	$(LOCAL_PATH)/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
-	$(LOCAL_PATH)/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	$(LOCAL_PATH)/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
 	$(LOCAL_PATH)/lib/libsomp.so:system/lib/libsomp.so \
 	$(LOCAL_PATH)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
