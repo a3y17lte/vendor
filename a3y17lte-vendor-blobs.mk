@@ -54,7 +54,6 @@ $(LOCAL_PATH)bin/sensorhubservice:system/bin/sensorhubservice \
 $(LOCAL_PATH)bin/wcnss_filter:system/bin/wcnss_filter \
 $(LOCAL_PATH)etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
 $(LOCAL_PATH)etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
-$(LOCAL_PATH)etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
 $(LOCAL_PATH)etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
 $(LOCAL_PATH)etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
 $(LOCAL_PATH)etc/ca.pem:system/etc/ca.pem \
