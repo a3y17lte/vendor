@@ -95,8 +95,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
 	$(LOCAL_PATH)/lib/hw/sensorhubs.universal7870.so:system/lib/hw/sensorhubs.universal7870.so \
 	$(LOCAL_PATH)/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
-	$(LOCAL_PATH)/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-	$(LOCAL_PATH)/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
 	$(LOCAL_PATH)/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
 	$(LOCAL_PATH)/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
 	$(LOCAL_PATH)/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
@@ -187,21 +185,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libuniplugin.so:system/lib/libuniplugin.so \
 	$(LOCAL_PATH)/lib/libwrappergps.so:system/lib/libwrappergps.so \
 	$(LOCAL_PATH)/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-	$(LOCAL_PATH)/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
 	$(LOCAL_PATH)/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
 	$(LOCAL_PATH)/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
 	$(LOCAL_PATH)/vendor/firmware/sec_s3nrn80_firmware.bin:system/vendor/firmware/sec_s3nrn80_firmware.bin \
 	$(LOCAL_PATH)/vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
 	$(LOCAL_PATH)/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
-	$(LOCAL_PATH)/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
 	$(LOCAL_PATH)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	$(LOCAL_PATH)/vendor/lib/libAutoEnhance.so:system/vendor/lib/libAutoEnhance.so \
 	$(LOCAL_PATH)/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
