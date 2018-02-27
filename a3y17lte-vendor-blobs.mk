@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/lib_SoundAlive_play_plus_ver127a.so:system/lib/lib_SoundAlive_play_plus_ver127a.so \
 	$(LOCAL_PATH)/lib/lib_SoundBooster_ver710.so:system/lib/lib_SoundBooster_ver710.so \
 	$(LOCAL_PATH)/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+	$(LOCAL_PATH)/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	$(LOCAL_PATH)/lib/libarac.so:system/lib/libarac.so \
 	$(LOCAL_PATH)/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
 	$(LOCAL_PATH)/lib/libaudioroute.so:system/lib/libaudioroute.so \
