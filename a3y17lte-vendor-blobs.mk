@@ -52,6 +52,7 @@ $(LOCAL_PATH)bin/mcDriverDaemon:system/bin/mcDriverDaemon \
 $(LOCAL_PATH)bin/prepare_param.sh:system/bin/prepare_param.sh \
 $(LOCAL_PATH)bin/sensorhubservice:system/bin/sensorhubservice \
 $(LOCAL_PATH)bin/wcnss_filter:system/bin/wcnss_filter \
+$(LOCAL_PATH)lib/libbt-vendor.so:system/lib/libbt-vendor.so \
 $(LOCAL_PATH)etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
 $(LOCAL_PATH)etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
 $(LOCAL_PATH)etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
