@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     $(LOCAL_PATH)lib/libbauthserver.so:system/lib/libbauthserver.so \
     $(LOCAL_PATH)lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
-    $(LOCAL_PATH)lib/libbt-vendor:system/lib/libbt-vendor \
+    $(LOCAL_PATH)lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     $(LOCAL_PATH)lib/libcsc.so:system/lib/libcsc.so \
     $(LOCAL_PATH)lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     $(LOCAL_PATH)lib/libexynoscamera.so:system/lib/libexynoscamera.so \
