@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     $(LOCAL_PATH)bin/sensorhubservice:system/bin/sensorhubservice \
     $(LOCAL_PATH)bin/wcnss_filter:system/bin/wcnss_filter \
-    $(LOCAL_PATH)etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
     $(LOCAL_PATH)etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
     $(LOCAL_PATH)etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     $(LOCAL_PATH)etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -82,7 +81,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)etc/sec_s3nrn80_rfreg.bin:system/etc/sec_s3nrn80_rfreg.bin \
     $(LOCAL_PATH)lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     $(LOCAL_PATH)lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    $(LOCAL_PATH)lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     $(LOCAL_PATH)lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     $(LOCAL_PATH)lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
@@ -92,24 +90,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     $(LOCAL_PATH)lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     $(LOCAL_PATH)lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
-    $(LOCAL_PATH)lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
-    $(LOCAL_PATH)lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
-    $(LOCAL_PATH)lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
-    $(LOCAL_PATH)lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
-    $(LOCAL_PATH)lib/lib_SamsungRec_06002.so:system/lib/lib_SamsungRec_06002.so \
-    $(LOCAL_PATH)lib/lib_SamsungVAD_v01009.so:system/lib/lib_SamsungVAD_v01009.so \
-    $(LOCAL_PATH)lib/lib_SoundAlive_3DPosition_ver202.so:system/lib/lib_SoundAlive_3DPosition_ver202.so \
-    $(LOCAL_PATH)lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
-    $(LOCAL_PATH)lib/lib_SoundAlive_play_plus_ver127a.so:system/lib/lib_SoundAlive_play_plus_ver127a.so \
-    $(LOCAL_PATH)lib/lib_SoundBooster_ver710.so:system/lib/lib_SoundBooster_ver710.so \
-    $(LOCAL_PATH)lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     $(LOCAL_PATH)lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    $(LOCAL_PATH)lib/libaudioroute.so:system/lib/libaudioroute.so \
-    $(LOCAL_PATH)lib/libaudiosa.so:system/lib/libaudiosa.so \
     $(LOCAL_PATH)lib/libbauthserver.so:system/lib/libbauthserver.so \
     $(LOCAL_PATH)lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     $(LOCAL_PATH)lib/libbt-vendor.so:system/lib/libbt-vendor.so \
-    $(LOCAL_PATH)lib/libcodecdump.so:system/lib/libcodecdump.so \
     $(LOCAL_PATH)lib/libcsc.so:system/lib/libcsc.so \
     $(LOCAL_PATH)lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     $(LOCAL_PATH)lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -120,18 +104,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     $(LOCAL_PATH)lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     $(LOCAL_PATH)lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    $(LOCAL_PATH)lib/libmysound.so:system/lib/libmysound.so \
-    $(LOCAL_PATH)lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
     $(LOCAL_PATH)lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     $(LOCAL_PATH)lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
-    $(LOCAL_PATH)lib/librecordalive.so:system/lib/librecordalive.so \
     $(LOCAL_PATH)lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(LOCAL_PATH)lib/librilutils.so:system/lib/librilutils.so \
-    $(LOCAL_PATH)lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
-    $(LOCAL_PATH)lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     $(LOCAL_PATH)lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     $(LOCAL_PATH)lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     $(LOCAL_PATH)lib/libseccameracore.so:system/lib/libseccameracore.so \
     $(LOCAL_PATH)lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)lib/libsecril-client.so:system/lib/libsecril-client.so \
@@ -140,11 +118,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     $(LOCAL_PATH)lib/libsensorservice.so:system/lib/libsensorservice.so \
     $(LOCAL_PATH)lib/libstainkiller.so:system/lib/libstainkiller.so \
-    $(LOCAL_PATH)lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     $(LOCAL_PATH)lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
-    $(LOCAL_PATH)lib/libtfa98xx.so:system/lib/libtfa98xx.so \
-    $(LOCAL_PATH)lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    $(LOCAL_PATH)lib/libtinycompress.so:system/lib/libtinycompress.so \
     $(LOCAL_PATH)lib/libuniplugin.so:system/lib/libuniplugin.so \
     $(LOCAL_PATH)lib/libwrappergps.so:system/lib/libwrappergps.so \
     $(LOCAL_PATH)lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
