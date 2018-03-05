@@ -17,6 +17,7 @@
 LOCAL_PATH := vendor/samsung/a3y17lte/proprietary/
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)lib/hw/audio_amplifier.universal7870.so:system/lib/hw/audio_amplifier.universal7870.so \
     $(LOCAL_PATH)app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     $(LOCAL_PATH)app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
     $(LOCAL_PATH)app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
