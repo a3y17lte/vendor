@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     $(LOCAL_PATH)bin/gpsd:system/bin/gpsd \
     $(LOCAL_PATH)bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+    $(LOCAL_PATH)bin/sensorhubservice:system/bin/sensorhubservice \
     $(LOCAL_PATH)bin/wcnss_filter:system/bin/wcnss_filter \
     $(LOCAL_PATH)etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
     $(LOCAL_PATH)etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
@@ -86,6 +87,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     $(LOCAL_PATH)lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
+    $(LOCAL_PATH)lib/hw/sensorhubs.universal7870.so:system/lib/hw/sensorhubs.universal7870.so \
+    $(LOCAL_PATH)lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
     $(LOCAL_PATH)lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     $(LOCAL_PATH)lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     $(LOCAL_PATH)lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
@@ -112,7 +115,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libseccameracore.so:system/lib/libseccameracore.so \
     $(LOCAL_PATH)lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)lib/libsecril-client.so:system/lib/libsecril-client.so \
+    $(LOCAL_PATH)lib/libsensorhub.so:system/lib/libsensorhub.so \
+    $(LOCAL_PATH)lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
     $(LOCAL_PATH)lib/libsensorlistener.so:system/lib/libsensorlistener.so \
+    $(LOCAL_PATH)lib/libsensorservice.so:system/lib/libsensorservice.so \
     $(LOCAL_PATH)lib/libstainkiller.so:system/lib/libstainkiller.so \
     $(LOCAL_PATH)lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     $(LOCAL_PATH)lib/libtfa98xx.so:system/lib/libtfa98xx.so \
