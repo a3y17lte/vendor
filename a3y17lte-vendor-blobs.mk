@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     $(LOCAL_PATH)lib/libcsc.so:system/lib/libcsc.so \
     $(LOCAL_PATH)lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
+    $(LOCAL_PATH)lib/hw/fingerprint.default.so:lib/hw/fingerprint.default.so \
     $(LOCAL_PATH)lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     $(LOCAL_PATH)lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     $(LOCAL_PATH)lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
