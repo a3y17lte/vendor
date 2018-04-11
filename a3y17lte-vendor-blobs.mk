@@ -30,7 +30,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     $(LOCAL_PATH)etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     $(LOCAL_PATH)etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
-    $(LOCAL_PATH)etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf
+    $(LOCAL_PATH)etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
+    $(LOCAL_PATH)vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so
 
 #==/ Wifi /==#
 PRODUCT_COPY_FILES += \
