@@ -90,8 +90,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 #== / Fingerprint /==#
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)lib/hw/fingerprint.default.so:lib/hw/fingerprint.default.so \
+PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)lib/libbauthserver.so:system/lib/libbauthserver.so \
     $(LOCAL_PATH)lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     $(LOCAL_PATH)lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
