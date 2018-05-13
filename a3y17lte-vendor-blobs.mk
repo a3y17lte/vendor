@@ -176,9 +176,9 @@ PRODUCT_COPY_FILES += \
 
 #==/ NFC /==#
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)etc/sec_s3nrn81_rfreg.bin:system/etc/sec_s3nrn81_rfreg.bin \
+    $(LOCAL_PATH)etc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     $(LOCAL_PATH)lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
-    $(LOCAL_PATH)vendor/firmware/sec_s3nrn81_firmware.bin:system/vendor/firmware/sec_s3nrn81_firmware.bin
+    $(LOCAL_PATH)vendor/firmware/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 
 #==/ Shim Libs /==#
 PRODUCT_COPY_FILES += \
