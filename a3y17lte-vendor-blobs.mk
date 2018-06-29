@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
     $(LOCAL_PATH)lib/libtfa98xx.so:system/lib/libtfa98xx.so
 
+#==/ DRM  /==#
+    $(LOCAL_PATH)lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    $(LOCAL_PATH)lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
+
 #==/ Bluetooth /==#
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libbt-vendor.so:system/lib/libbt-vendor.so \
