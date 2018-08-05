@@ -181,10 +181,15 @@ PRODUCT_COPY_FILES += \
 #==/ NFC /==#
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)etc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
-    $(LOCAL_PATH)etc/sec_s3nrn80_rfreg.bin:system/etc/sec_s3nrn80_rfreg.bin \
+    $(LOCAL_PATH)etc/sec_s3nrn80_rfreg.bin:system/etc/nfc/sec_s3nrn80_rfreg.bin \
     $(LOCAL_PATH)lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
     $(LOCAL_PATH)vendor/firmware/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
-    $(LOCAL_PATH)vendor/firmware/sec_s3nrn80_firmware.bin:system/vendor/firmware/sec_s3nrn80_firmware.bin
+    $(LOCAL_PATH)vendor/firmware/sec_s3nrn80_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn80_firmware.bin \
+    $(LOCAL_PATH)etc/libnfc-sec-hal.conf:system/etc/libnfc-sec-hal.conf \
+    $(LOCAL_PATH)etc/libnfc-sec.conf:system/etc/libnfc-sec.conf \
+    $(LOCAL_PATH)etc/nfc_key:system/etc/nfc_key \
+    $(LOCAL_PATH)etc/nfcee_access.xml:system/etc/nfcee_access.xml
+
 
 #==/ Shim Libs /==#
 PRODUCT_COPY_FILES += \
