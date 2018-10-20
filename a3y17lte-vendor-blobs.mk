@@ -76,18 +76,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
     $(LOCAL_PATH)lib/libexynosscaler.so:system/lib/libexynosscaler.so \
     $(LOCAL_PATH)lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    $(LOCAL_PATH)lib/libstainkiller.so:system/lib/libstainkiller.so \
+    $(LOCAL_PATH)lib/libstainkiller.so:system/lib/vendor/libstainkiller.so \
     $(LOCAL_PATH)lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     $(LOCAL_PATH)lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     $(LOCAL_PATH)lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
     $(LOCAL_PATH)vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
     $(LOCAL_PATH)vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
-    $(LOCAL_PATH)lib/libOpenCv.so:system/lib/libOpenCv.so \
+    $(LOCAL_PATH)lib/libOpenCv.so:system/vendor/lib/libOpenCv.so \
     $(LOCAL_PATH)vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-    $(LOCAL_PATH)lib/libsomp.so:system/lib/libsomp.so \
+    $(LOCAL_PATH)lib/libsomp.so:system/vendor/lib/libsomp.so \
     $(LOCAL_PATH)vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
-    $(LOCAL_PATH)vendor/lib/libAutoEnhance.so:system/vendor/lib/libAutoEnhance.so \
-    $(LOCAL_PATH)vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so
+
 
 #==/ DRM /==#
 PRODUCT_COPY_FILES += \
