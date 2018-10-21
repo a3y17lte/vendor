@@ -113,7 +113,15 @@ PRODUCT_COPY_FILES += \
 #==/ Graphics /==#
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    $(LOCAL_PATH)lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so
+    $(LOCAL_PATH)lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    $(LOCAL_PATH)lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
+    $(LOCAL_PATH)lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
+    $(LOCAL_PATH)lib/libfimg.so:system/lib/libfimg.so \
+    $(LOCAL_PATH)lib/libhdmi.so:system/lib/libhdmi.so \
+    $(LOCAL_PATH)lib/libhwcutils.so:system/lib/libhwcutils.so \
+    $(LOCAL_PATH)lib/libion_exynos.so:system/lib/libion_exynos.so \
+    $(LOCAL_PATH)lib/libmpp.so:system/lib/libmpp.so
+
 
 #==/ Media /==#
 PRODUCT_COPY_FILES += \
