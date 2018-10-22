@@ -18,7 +18,6 @@ LOCAL_PATH := vendor/samsung/a3y17lte/proprietary/
 
 #==/ Audio /==#
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)lib/hw/audio_amplifier.universal7870.so:system/lib/hw/audio_amplifier.universal7870.so \
     $(LOCAL_PATH)etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
     $(LOCAL_PATH)lib/libtfa98xx.so:system/lib/libtfa98xx.so
 
