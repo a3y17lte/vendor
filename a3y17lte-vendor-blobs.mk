@@ -65,26 +65,29 @@ PRODUCT_COPY_FILES += \
  #==/ Camera ==/#
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
-    $(LOCAL_PATH)lib/libcsc.so:system/lib/libcsc.so \
     $(LOCAL_PATH)lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     $(LOCAL_PATH)lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
-    $(LOCAL_PATH)lib/libseccameracore.so:system/lib/libseccameracore.so \
     $(LOCAL_PATH)lib/libuniplugin.so:system/lib/libuniplugin.so \
+    $(LOCAL_PATH)vendor/lib/libstainkiller.so.so:system/vendor/lib/libstainkiller.so \
     $(LOCAL_PATH)lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    $(LOCAL_PATH)vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
+    $(LOCAL_PATH)vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin
+
+#  BSP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
+    $(LOCAL_PATH)lib/libcsc.so:system/lib/libcsc.so \
     $(LOCAL_PATH)lib/libexynosutils.so:system/lib/libexynosutils.so \
     $(LOCAL_PATH)lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
     $(LOCAL_PATH)lib/libexynosscaler.so:system/lib/libexynosscaler.so \
     $(LOCAL_PATH)lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    $(LOCAL_PATH)lib/libstainkiller.so:system/lib/vendor/libstainkiller.so \
-    $(LOCAL_PATH)lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
-    $(LOCAL_PATH)lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
-    $(LOCAL_PATH)lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
-    $(LOCAL_PATH)vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
-    $(LOCAL_PATH)vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
-    $(LOCAL_PATH)lib/libOpenCv.so:system/vendor/lib/libOpenCv.so \
-    $(LOCAL_PATH)vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-    $(LOCAL_PATH)lib/libsomp.so:system/vendor/lib/libsomp.so \
-    $(LOCAL_PATH)vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
+    $(LOCAL_PATH)lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
+    $(LOCAL_PATH)lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
+    $(LOCAL_PATH)lib/libfimg.so:system/lib/libfimg.so \
+    $(LOCAL_PATH)lib/libhdmi.so:system/lib/libhdmi.so \
+    $(LOCAL_PATH)lib/libhwcutils.so:system/lib/libhwcutils.so \
+    $(LOCAL_PATH)lib/libmpp.so:system/lib/libmpp.so \
+    $(LOCAL_PATH)lib/libdisplay.so:system/lib/libdisplay
 
 
 #==/ DRM /==#
@@ -113,13 +116,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     $(LOCAL_PATH)lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    $(LOCAL_PATH)lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    $(LOCAL_PATH)lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
-    $(LOCAL_PATH)lib/libfimg.so:system/lib/libfimg.so \
-    $(LOCAL_PATH)lib/libhdmi.so:system/lib/libhdmi.so \
-    $(LOCAL_PATH)lib/libhwcutils.so:system/lib/libhwcutils.so \
-    $(LOCAL_PATH)lib/libion_exynos.so:system/lib/libion_exynos.so \
-    $(LOCAL_PATH)lib/libmpp.so:system/lib/libmpp.so
 
 
 #==/ Media /==#
