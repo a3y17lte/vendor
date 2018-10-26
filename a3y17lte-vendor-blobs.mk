@@ -104,13 +104,12 @@ PRODUCT_COPY_FILES +=  \
 
  #==/ GPS /==#
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)bin/gpsd:system/bin/gpsd \
-    $(LOCAL_PATH)etc/ca.pem:system/etc/ca.pem \
-    $(LOCAL_PATH)lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    $(LOCAL_PATH)vendor/bin/gpsd:system/vendor/bin/gpsd \
+    $(LOCAL_PATH)vendor/etc/ca.pem:system/vendor/etc/ca.pem \
+    $(LOCAL_PATH)vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
     $(LOCAL_PATH)lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
-    $(LOCAL_PATH)lib/libwrappergps.so:system/lib/libwrappergps.so \
-    $(LOCAL_PATH)vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    $(LOCAL_PATH)vendor/lib/libflp.so:system/vendor/lib/libflp.so
+    $(LOCAL_PATH)vendor/lib/libfloatingfeature.so:system/vendor/lib/libfloatingfeature.so \
+    $(LOCAL_PATH)vendor/lib/libwrappergps.so:system/vendor/lib/libwrappergps.so \
 
 #==/ Graphics /==#
 PRODUCT_COPY_FILES += \
