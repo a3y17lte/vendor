@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     $(LOCAL_PATH)lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     $(LOCAL_PATH)lib/libuniplugin.so:system/lib/libuniplugin.so \
-    $(LOCAL_PATH)vendor/lib/libstainkiller.so.so:system/vendor/lib/libstainkiller.so \
+    $(LOCAL_PATH)vendor/lib/libstainkiller.so:system/vendor/lib/libstainkiller.so \
     $(LOCAL_PATH)lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     $(LOCAL_PATH)vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
     $(LOCAL_PATH)vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin
@@ -87,8 +87,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/libhdmi.so:system/lib/libhdmi.so \
     $(LOCAL_PATH)lib/libhwcutils.so:system/lib/libhwcutils.so \
     $(LOCAL_PATH)lib/libmpp.so:system/lib/libmpp.so \
-    $(LOCAL_PATH)lib/libdisplay.so:system/lib/libdisplay
-
 
 #==/ DRM /==#
 PRODUCT_COPY_FILES += \
