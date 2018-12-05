@@ -65,37 +65,39 @@ PRODUCT_COPY_FILES += \
  #==/ Camera ==/#
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
-    $(LOCAL_PATH)lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    $(LOCAL_PATH)lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \    $(LOCAL_PATH)lib/libseccameracore.so:system/lib/libseccameracore.so \
-    $(LOCAL_PATH)lib/libuniplugin.so:system/lib/libuniplugin.so \
-    $(LOCAL_PATH)lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    $(LOCAL_PATH)lib/libstainkiller.so:system/lib/libstainkiller.so \
-    $(LOCAL_PATH)lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
-    $(LOCAL_PATH)lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
-    $(LOCAL_PATH)lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
-    $(LOCAL_PATH)vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
-    $(LOCAL_PATH)vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
-    $(LOCAL_PATH)lib/libOpenCv.so:system/lib/libOpenCv.so \
-    $(LOCAL_PATH)vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-    $(LOCAL_PATH)lib/libsomp.so:system/lib/libsomp.so \
-    $(LOCAL_PATH)vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
-    $(LOCAL_PATH)vendor/lib/libAutoEnhance.so:system/vendor/lib/libAutoEnhance.so \
-    $(LOCAL_PATH)vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so
+    $(LOCAL_PATH)lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+    $(LOCAL_PATH)lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
+    $(LOCAL_PATH)lib/libseccameracore.so:system/lib/libseccameracore.so \
+    $(LOCAL_PATH)lib/libuniplugin.so:system/lib/libuniplugin.so \
+    $(LOCAL_PATH)lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    $(LOCAL_PATH)lib/libstainkiller.so:system/lib/libstainkiller.so \
+    $(LOCAL_PATH)lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
+    $(LOCAL_PATH)lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
+    $(LOCAL_PATH)lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
+    $(LOCAL_PATH)vendor/firmware/setfile_imx219.bin:system/vendor/firmware/setfile_imx219.bin \
+    $(LOCAL_PATH)vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
+    $(LOCAL_PATH)lib/libOpenCv.so:system/lib/libOpenCv.so \
+    $(LOCAL_PATH)vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
+    $(LOCAL_PATH)lib/libsomp.so:system/lib/libsomp.so \
+    $(LOCAL_PATH)vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
+    $(LOCAL_PATH)vendor/lib/libAutoEnhance.so:system/vendor/lib/libAutoEnhance.so \
+    $(LOCAL_PATH)vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so
 
-#  BSP
+# BSP
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
-    $(LOCAL_PATH)lib/libcsc.so:system/lib/libcsc.so \
-    $(LOCAL_PATH)lib/libexynosutils.so:system/lib/libexynosutils.so \
-    $(LOCAL_PATH)lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    $(LOCAL_PATH)lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-    $(LOCAL_PATH)lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    $(LOCAL_PATH)lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    $(LOCAL_PATH)lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
-    $(LOCAL_PATH)lib/libfimg.so:system/lib/libfimg.so \
-    $(LOCAL_PATH)lib/libhdmi.so:system/lib/libhdmi.so \
-    $(LOCAL_PATH)lib/libhwcutils.so:system/lib/libhwcutils.so \
-    $(LOCAL_PATH)lib/libmpp.so:system/lib/libmpp.so \
+    vendor/samsung/a3y17lte/bsp/lib/libion_exynos.so:system/lib/libion_exynos.so \
+    vendor/samsung/a3y17lte/bsp/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
+    vendor/samsung/a3y17lte/bsp/lib/libcsc.so:system/lib/libcsc.so \
+    vendor/samsung/a3y17lte/bsp/lib/libexynosutils.so:system/lib/libexynosutils.so \
+    vendor/samsung/a3y17lte/bsp/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    vendor/samsung/a3y17lte/bsp/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    vendor/samsung/a3y17lte/bsp/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+    vendor/samsung/a3y17lte/bsp/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/a3y17lte/bsp/lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
+    vendor/samsung/a3y17lte/bsp/lib/libfimg.so:system/lib/libfimg.so \
+    vendor/samsung/a3y17lte/bsp/lib/libhdmi.so:system/lib/libhdmi.so \
+    vendor/samsung/a3y17lte/bsp/lib/libhwcutils.so:system/lib/libhwcutils.so \
+    vendor/samsung/a3y17lte/bsp/lib/libmpp.so:system/lib/libmpp.so
 
 #==/ DRM /==#
 PRODUCT_COPY_FILES += \
@@ -109,20 +111,20 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     $(LOCAL_PATH)lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so
 
- #==/ GPS /==#
+#==/ GPS /==#
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)vendor/bin/gpsd:system/vendor/bin/gpsd \
-    $(LOCAL_PATH)vendor/etc/ca.pem:system/vendor/etc/ca.pem \
-    $(LOCAL_PATH)vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
+    $(LOCAL_PATH)bin/gpsd:system/bin/gpsd \
+    $(LOCAL_PATH)etc/ca.pem:system/etc/ca.pem \
+    $(LOCAL_PATH)lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
-    $(LOCAL_PATH)vendor/lib/libfloatingfeature.so:system/vendor/lib/libfloatingfeature.so \
-    $(LOCAL_PATH)vendor/lib/libwrappergps.so:system/vendor/lib/libwrappergps.so \
+    $(LOCAL_PATH)lib/libwrappergps.so:system/lib/libwrappergps.so \
+    $(LOCAL_PATH)vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    $(LOCAL_PATH)vendor/lib/libflp.so:system/vendor/lib/libflp.so
 
 #==/ Graphics /==#
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     $(LOCAL_PATH)lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-
 
 #==/ Media /==#
 PRODUCT_COPY_FILES += \
@@ -338,5 +340,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
     $(LOCAL_PATH)vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
     $(LOCAL_PATH)vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-
 
