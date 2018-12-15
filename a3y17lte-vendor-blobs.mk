@@ -39,27 +39,30 @@ PRODUCT_COPY_FILES += \
 
 #==/ Wifi /==#
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)etc/firmware/Data.msc:system/etc/firmware/Data.msc \
-    $(LOCAL_PATH)etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
-    $(LOCAL_PATH)etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
-    $(LOCAL_PATH)etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    $(LOCAL_PATH)etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    $(LOCAL_PATH)etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    $(LOCAL_PATH)etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    $(LOCAL_PATH)etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    $(LOCAL_PATH)etc/firmware/nvm_tlv_tf_1.1.bin:system/etc/firmware/nvm_tlv_tf_1.1.bin \
-    $(LOCAL_PATH)etc/firmware/otp30.bin:system/etc/firmware/otp30.bin \
-    $(LOCAL_PATH)etc/firmware/qwlan30.bin:system/etc/firmware/qwlan30.bin \
-    $(LOCAL_PATH)etc/firmware/qwlan30_ibss.bin:system/etc/firmware/qwlan30_ibss.bin \
-    $(LOCAL_PATH)etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    $(LOCAL_PATH)etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    $(LOCAL_PATH)etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    $(LOCAL_PATH)etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    $(LOCAL_PATH)etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    $(LOCAL_PATH)etc/firmware/rampatch_tlv_tf_1.1.tlv:system/etc/firmware/rampatch_tlv_tf_1.1.tlv \
-    $(LOCAL_PATH)etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
-    $(LOCAL_PATH)etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
-    $(LOCAL_PATH)etc/firmware/utfbd32.bin:system/etc/firmware/utfbd32.bin
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/Data.msc:system/etc/firmware/Data.msc \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/nvm_tlv_tf_1.1.bin:system/etc/firmware/nvm_tlv_tf_1.1.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/otp30.bin:system/etc/firmware/otp30.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/qwlan30.bin:system/etc/firmware/qwlan30.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/qwlan30_ibss.bin:system/etc/firmware/qwlan30_ibss.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/rampatch_tlv_tf_1.1.tlv:system/etc/firmware/rampatch_tlv_tf_1.1.tlv \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/utfbd32.bin:system/etc/firmware/utfbd32.bin \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/wlan/grippower.info:system/etc/firmware/wlan/grippower.info \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
+    vendor/samsung/a3y17lte/proprietary/etc/firmware/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/WCNSS_cfg.dat
 
  #==/ Camera ==/#
 PRODUCT_COPY_FILES += \
