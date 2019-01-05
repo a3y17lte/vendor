@@ -16,6 +16,20 @@
 
 LOCAL_PATH := vendor/samsung/a3y17lte/proprietary/
 
+
+#  MicroG
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)microg/com.android.vending-16.apk:system/priv-apps/com.android.vending-16.apk  \
+    $(LOCAL_PATH)microg/org.fdroid.fdroid_1004050.apk:system/priv-apps/org.fdroid.fdroid_1004050.apk \
+    $(LOCAL_PATH)microg/WundergroundWeatherProvider.apk:system/priv-apps/WundergroundWeatherProvider.apk \
+    $(LOCAL_PATH)microg/com.google.android.gms-13280012.apk:system/priv-apps/com.google.android.gms-13280012.apk \
+    $(LOCAL_PATH)microg/org.fdroid.fdroid.privileged_2080.apk:system/priv-apps/org.fdroid.fdroid.privileged_2080.apk \
+    $(LOCAL_PATH)microg/YahooWeatherProvider.apk:system/priv-apps/YahooWeatherProvider.apk \
+    $(LOCAL_PATH)microg/com.google.android.gsf-8.apk:system/priv-apps/com.google.android.gsf-8.apk \
+    $(LOCAL_PATH)microg/org.microg.nlp.backend.ichnaea_20033.apk:system/priv-apps/org.microg.nlp.backend.ichnaea_20033.apk \
+    $(LOCAL_PATH)microg/OpenWeatherMapWeatherProvider.apk:system/priv-apps/OpenWeatherMapWeatherProvider.apk \
+    $(LOCAL_PATH)microg/org.microg.nlp.backend.nominatim_20042.apk:system/priv-apps/org.microg.nlp.backend.nominatim_20042.apk
+
 #==/ Audio /==#
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
